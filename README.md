@@ -1,7 +1,8 @@
 # NdiMonitor
 
-Aplicativo Android para monitorar streams NDI [NDI®](http://ndi.tv/). Não sei se funciona no vMix.
-Fiz essa fork do Daubli; ele diz que o app ainda está em fase de desenvolvimento bem inicial. Então se o próprio criador disse que o projeto está em fase inicial, nem espere coisa boa desse repositório. Eu só criei esse bagulho pra colocar o .APK.
+Aplicativo Android para monitorar streams [NDI®](http://ndi.tv/). Não sei se funciona no vMix. Esse app substitui o voir!pu, que aparentemente foi tirado da play store - e o .apk só tem em site esquisito.
+
+Fork do projeto do Daubli; ele diz que o app ainda está em fase de desenvolvimento bem inicial. Então se o próprio criador disse que o projeto está em fase inicial, nem espere coisa boa desse repositório. Eu só criei esse bagulho pra colocar o .APK.
 
 # License
 
