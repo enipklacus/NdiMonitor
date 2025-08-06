@@ -20,7 +20,14 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
-    }
+        applicationVariants.all { variant ->
+            variant.outputs.each { output ->
+                // Customize the output file name
+                def newName = "NdiMonitor-${variant.versionName}.apk" // For APKs
+                output.outputFileName = newName
+            }
+        }
+    } // end buildTypes
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
